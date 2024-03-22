@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sizwe - CV</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #000000; /* Black */
+            color: #ffffff; /* White */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .container {
+            width: 80%;
+            text-align: left;
+            padding-bottom: 100px; /* Footer height */
+        }
+        header {
+            background-color: #ff1493; /* Deep pink */
+            padding: 20px;
+            border-bottom: 5px solid #00bfff; /* Deep sky blue */
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin: 0;
+            color: #00bfff; /* Deep sky blue */
+        }
+        p {
+            line-height: 1.6;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #000000; /* Black */
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav button {
+            background-color: #ff1493; /* Deep pink */
+            color: #ffffff; /* White */
+            border: none;
+            padding: .6rem;
+            margin: 0 10px;
+            font-size: 1rem;
+            border-radius: .5rem;
+            text-transform: uppercase;
+
+            cursor: pointer;
+            transition: background-color 0.3s;
+            font-family: 'Press Start 2P', cursive;
+        }
+        nav button:hover {
+            background-color: #ff69b4; /* Medium pink */
+        }
+        section {
+            padding: 20px;
+            display: none;
+        }
+        section.active {
+            display: block;
+        }
+        h2 {
+            color: #ff1493; /* Deep pink */
+            font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #ff1493; /* Deep pink */
+            padding: 20px 0;
+            width: 100%;
+            text-align: center;
+            margin-top: auto; /* Push the footer to the bottom */
+        }
+        footer p {
+            margin: 0;
+            color: #ffffff; /* White */
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sizwe Mtshweni</h1>
+            <p>Junior IT Professional | Johannesburg, Gauteng</p>
+        </header>
+        <nav>
+            <button onclick="toggleSection('about')">About</button>
+            <button onclick="toggleSection('education')">Education</button>
+            <button onclick="toggleSection('experience')">Experience</button>
+            <button onclick="toggleSection('projects')">Projects</button>
+            <button onclick="toggleSection('skills')">Skills</button>
+            <button onclick="toggleSection('contact')">Contact</button>
+        </nav>
+        <section id="about" class="active">
+            <h2>About Me</h2>
+            <p>I am a junior IT professional with an academic background in Information Technology & Computer Science. Throughout my journey, I have dedicated myself to honing my skills in Systems Support and Software development, both through practical experience and academic pursuits.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <p>NCV: Information Technology & Computer Science (NQF 2, 3 & 4) - Central Johannesburg Tvet College (Jan. 2021 - Nov. 2023)</p>
+            <p>Relevant Coursework: </p>
+                <ul>
+                    <li>System design & analysis</li>
+                    <li>Computer hardware</li>
+                    <li>Database design</li>
+                    <li>Project management</li>
+                    <li>Information systems</li>
+                    <li>Systems development</li>
+                    <li>Electronics</li>
+                </ul>
+            <h2>Certifications</h3>
+                <ul>
+                    <li>CCNA: Introduction to Computer Networks / Cisco</li>
+                    <li>IT Essentials: PC Hardware & Software / Cisco</li>
+                    <li>Network Support & Security / Cisco</li>
+                    <li>Programming with JavaScript / Meta</li>
+                    <li>Introduction to Mobile Development / Meta</li>
+                    <li>Technical Support Fundatments / Google</li>
+                    <li>Computer Networking / Google</li>
+                </ul>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Web Development and Design Intern - Oasis Infobyte (Feb. 2024 - Present)</p>
+            <ul>
+                <li>Developed and implemented responsive web interfaces using HTML, CSS, and JavaScript.</li>
+                <li>Utilized version control system like Git for efficient code management.</li>
+                <li>Optimized website performance through code refactoring and image compression.</li>
+                <li>Conducted troubleshooting and debugging of code to identify and resolve issues efficiently.</li>
+            </ul>
+            <p>Peer Tutor - Central Johannesburg Tvet College (Apr. 2023 - Nov. 2023)</p>
+            <ul>
+                <li>Assisted students in problem-solving and exam preparation.</li>
+                <li>Conducted one-on-one and group tutoring sessions.</li>
+                <li>Empowered students with confidence and proficiency in mathematics.</li>
+                <li>Valued feedback from students to continuously improve tutoring methods.</li>
+                </ul>
+                </section>
+                <section id="projects">
+                <h2>Projects</h2>
+                <p>Salon Appointment System</p>
+                <ul>
+                <li>Developed an appointment system using VB.Net, SQL, and MS Access database for booking appointments at a salon.</li>
+                <li>Designed and developed a webpage using HTML, CSS, and JavaScript to enhance user functionality and verify data input.</li>
+                <li>Utilized VB.Net for the backend logic and SQL for database management, ensuring efficient data storage and retrieval.</li>
+                <li>Implemented normalization techniques and created relationships within the database to ensure data integrity.</li>
+                <li>Designed a context diagram, use case diagram, and business model to understand system requirements and business operations.</li>
+                <li>Conducted information gathering techniques such as questionnaires to gather user requirements.</li>
+                <li>Followed UX/UI principles to design an intuitive user experience and wireframes using Draw.io.</li>
+                <li>Implemented OOP principles for system development, ensuring modularity and scalability.</li>
+                <li>Developed administrative side to perform CRUD operations using SQL.</li>
+                <li>Utilized GitHub for version control to track changes and collaborate.</li>
+                <li>Created ERD and FDD diagrams to visualize system architecture and functionality.</li>
+                </ul>
+                <p>Network Design</p>
+                <ul>
+                <li>Designed and implemented a computer network using Cisco Packet Tracer.</li>
+                <li>Developed a network plan, including IP addressing, subnetting and routing protocols for data transmission.</li>
+                <li>Configured Cisco routers and switches to establish a secure local area network (LAN) infrastructure.</li>
+                <li>Implemented DHCP (Dynamic Host Configuration Protocol) for automated IP address assignment.</li>
+                <li>Conducted thorough testing to validate network functionality, identifying and resolving potential issues.</li>
+                <li>Documented network setup, configuration and troubleshooting steps for future reference.</li>
+                <li>Acquired proficiency in Cisco Packet Tracer, gaining understanding in network design and administration.</li>
+                </ul>
+                <p>Pharmacy Management System</p>
+                <ul>
+                <li>Architected and implemented a robust Pharmacy Management System from scratch using Visual Basic .NET (VB.NET) for the frontend and Microsoft SQL Server for backend data management.</li>
+                <li>Developed a relational database schema to efficiently store and manage data, including medicine inventory, employee details, and billing information.</li>
+                <li>Leveraged Windows Forms (WinForms) to create an intuitive and user-friendly interface, allowing easy navigation and interaction with the system.</li>
+                <li>Integrated advanced features such as CRUD (Create, Read, Update, Delete) operations for managing medicines and employees, as well as generating detailed bills for customer purchases.</li>
+                <li>Implemented dynamic data visualization using Microsoft Chart Controls to provide insightful analytics, enabling users to track trends and make informed business decisions.</li>
+                <li>Continuously refining and enhancing the system, incorporating feedback and iterating on functionality to optimize performance and usability.</li>
+                </ul>
+                </section>
+                <section id="skills">
+                <h2>Skills</h2>
+                <h3>Core Strengths</h3>
+                <ul>
+                <li>Customer service & support</li>
+                <li>Troubleshooting</li>
+                <li>Computer networks and hardware</li>
+                <li>Software development</li>
+                </ul>
+                <h3>Technology Proficiencies</h3>
+                <ul>
+                <li><strong>Networking:</strong> LAN, TCP/IP, DHCP, DNS</li>
+                <li><strong>Operating Systems:</strong> Windows, iOS, Android, ParrotOS</li>
+                <li><strong>Desktop Applications:</strong> Microsoft Office 365 applications, Wireshark, Packet Tracer</li>
+                <li><strong>Ticketing Systems:</strong> ServiceNow</li>
+                <li><strong>Remote/Shadowing:</strong> Zoom, Remote Desktop Connection</li>
+                <li><strong>Security:</strong> Windows Defender, Kaspersky</li>
+                <li><strong>Languages:</strong> HTML, CSS, JavaScript, SQL, Visual Basic, .Net</li>
+                </ul>
+                <h3>Other Skills</h3>
+                <ul>
+                    <li>System design</li>
+                    <li>Project management</li>
+                    <li>SDLC</li>
+                    <li>ITIL</li>
+                    <li>Communication</li>
+                    <li>Teamwork</li>
+                    <li>Jest</li>
+                </ul>
+            </section>
+            <section id="contact">
+                <h2>Contact</h2>
+                <ul>
+                    <li>Email: Sizwemtshwenimic@gmail.com</li>
+                    <li>Phone: 067-755-0372</li>
+                    <li>GitHub: <a href="https://github.com/MalumCxde">Click here</a></li>
+                </ul>
+            </section>
+        </div>
+        <footer>
+            <p>&copy; 2024 Sizwe. All rights reserved.</p>
+        </footer>
+        <script>
+            function toggleSection(sectionId) {
+                // Hide all sections
+                document.querySelectorAll('section').forEach(section => {
+                    section.classList.remove('active');
+                });
+        
+                // Show the selected section
+                document.getElementById(sectionId).classList.add('active');
+
+                
+            }
+        </script>
+        </body>
+        </html>
+
+
+
+
+
+    
+
