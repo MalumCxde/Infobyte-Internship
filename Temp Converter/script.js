@@ -7,7 +7,6 @@ function convertTemperature() {
         result.textContent = "Please enter a valid number!";
         return;
     }
-
     if (unit === "celsius") {
         var convertedTemperature = (temperature * 9/5) + 32;
         result.textContent = convertedTemperature.toFixed(2) + " °F";
