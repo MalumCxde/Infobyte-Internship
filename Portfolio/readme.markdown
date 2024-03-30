@@ -1,6 +1,6 @@
 
 
-# CV Website 👨‍💼
+# Portfolio Website 👨‍💼
 
 This is a simple CV (Curriculum Vitae) website template designed using HTML, CSS, and JavaScript. It serves as a digital resume providing information about your education, experience, projects, skills, and contact details.
 
